@@ -127,13 +127,9 @@ main{
     padding-top: 0;
 }
 
-.image img {
-  width: 400px;
-}
 
 .copy-container p {
     color: white;
-    font-size: 1em;
     width: 400px;
     margin: 0 auto;
     text-align: left;
@@ -146,9 +142,25 @@ main{
     #nav-drawer {
         display: block;
     }
+    main {
+      padding: 80px 0 0 0;
+    }
 
-   .copy-container {
-  margin: 80px auto 0 auto;
-   }
+    .copy-container {
+      min-width: 320px;
+      margin: 0;
+    }
+
+    .image {
+      width: 400px;
+      margin: 0 auto;
+    }
+
+    .image img {
+      margin: 0;
+      width: 400px;
+    }
+
+  
 
 }
